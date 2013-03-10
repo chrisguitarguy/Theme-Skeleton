@@ -11,4 +11,6 @@ get_header('single');
 
 get_template_part('parts/loop', 'single');
 
+get_sidebar('single');
+
 get_footer('single');

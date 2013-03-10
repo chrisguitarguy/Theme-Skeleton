@@ -15,4 +15,6 @@ get_header($template);
 
 get_template_part('parts/loop', 'taxonomy');
 
+get_sidebar('taxonomy');
+
 get_footer($template);

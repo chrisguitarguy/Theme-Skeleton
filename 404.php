@@ -11,4 +11,6 @@ get_header('error');
 
 get_template_part('parts/loop', 'error');
 
+get_sidebar('error');
+
 get_footer('error');

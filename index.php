@@ -15,4 +15,6 @@ if (have_posts()) {
     get_template_part('parts/loop', 'error');
 }
 
+get_sidebar('index');
+
 get_footer('index');
